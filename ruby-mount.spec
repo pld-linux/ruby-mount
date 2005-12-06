@@ -1,4 +1,5 @@
 Summary:	Mount filesystems in Ruby
+Summary(pl):	Montowanie systemów plików w jêzyku Ruby
 Name:		ruby-mount
 Version:	0.2.1
 Release:	1
@@ -12,7 +13,10 @@ BuildRequires:	ruby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Ruby interface to the linux mount(2) call.
+Ruby interface to the Linux mount(2) call.
+
+%description -l pl
+Interfejs jêzyka Ruby do linuksowego wywo³ania mount(2).
 
 %prep
 %setup -q
