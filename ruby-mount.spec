@@ -2,14 +2,14 @@ Summary:	Mount filesystems in Ruby
 Summary(pl):	Montowanie systemów plików w jêzyku Ruby
 Name:		ruby-mount
 Version:	0.2.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Libraries
 Source0:	http://theinternetco.net/projects/ruby/%{name}-%{version}.tar.gz
 # Source0-md5:	1520432391b21890ebc19206e777ff16
 URL:		http://theinternetco.net/projects/ruby/
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby
+BuildRequires:	ruby-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
