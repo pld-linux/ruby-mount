@@ -8,8 +8,9 @@ Group:		Development/Libraries
 Source0:	http://theinternetco.net/projects/ruby/%{name}-%{version}.tar.gz
 # Source0-md5:	1520432391b21890ebc19206e777ff16
 URL:		http://theinternetco.net/projects/ruby/
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
+%ruby_mod_ver_requires_eq
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
