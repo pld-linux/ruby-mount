@@ -10,7 +10,7 @@ Source0:	http://theinternetco.net/projects/ruby/%{name}-%{version}.tar.gz
 URL:		http://theinternetco.net/projects/ruby/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
-%ruby_mod_ver_requires_eq
+%{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
