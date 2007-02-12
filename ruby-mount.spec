@@ -1,5 +1,5 @@
 Summary:	Mount filesystems in Ruby
-Summary(pl.UTF-8):   Montowanie systemów plików w języku Ruby
+Summary(pl.UTF-8):	Montowanie systemów plików w języku Ruby
 Name:		ruby-mount
 Version:	0.2.1
 Release:	2
